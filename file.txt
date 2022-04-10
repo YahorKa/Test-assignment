@@ -1,0 +1,17 @@
+FILE #include <iostream>
+file #include <fstream>
+#include <cstring> file 
+#include <vector>
+file;
+gitg;
+class FileStream{
+	std::ofstream file_write;  file 
+	std::ifstream file_read;
+	std::string file_name_open;
+	std::string file_name_write;
+	std::string magic_word;                  file
+public:	
+	void read_write(std::string& cin,std::string& cout,std::string& m_word){
+		file_name_open = cin+".txt";
+		file_name_write = cout+".txt";
+
