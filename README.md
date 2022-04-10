@@ -6,8 +6,8 @@ clone repo: git clone --recursive <url>\
 c++ main.cpp -o main
 
 # To build google_test
-mkdir build
-build: cmake ..
+mkdir build\
+build: cmake ..\
 build: make
 
 # Run executable
